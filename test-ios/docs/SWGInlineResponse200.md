@@ -1,0 +1,11 @@
+# SWGInlineResponse200
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**testParam1** | **NSString*** |  | 
+**testParam2** | [**SWGInlineResponse200TestParam2***](SWGInlineResponse200TestParam2.md) |  | 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
