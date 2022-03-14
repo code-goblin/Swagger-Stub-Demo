@@ -1,0 +1,6 @@
+module Pods_Swagger_Demo__iOS_Swift_ {
+  umbrella header "Pods-Swagger-Demo (iOS-Swift)-umbrella.h"
+
+  export *
+  module * { export * }
+}

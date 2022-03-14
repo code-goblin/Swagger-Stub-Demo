@@ -1,0 +1,1 @@
+../../../../../SwaggerClient/Api/SWGApi.h

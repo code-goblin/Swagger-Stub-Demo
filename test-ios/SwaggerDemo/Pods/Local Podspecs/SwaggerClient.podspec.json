@@ -1,0 +1,32 @@
+{
+  "name": "SwaggerClient",
+  "version": "1.0.0",
+  "summary": "Test Mock",
+  "description": "个人测试空间 Mock 专用",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "frameworks": "SystemConfiguration",
+  "homepage": "https://github.com/swagger-api/swagger-codegen",
+  "license": "Proprietary",
+  "source": {
+    "path": "."
+  },
+  "authors": {
+    "Swagger": "apiteam@swagger.io"
+  },
+  "source_files": "SwaggerClient/**/*.{m,h}",
+  "public_header_files": "SwaggerClient/**/*.h",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3"
+    ],
+    "JSONModel": [
+      "~> 1.2"
+    ],
+    "ISO8601": [
+      "~> 0.6"
+    ]
+  }
+}

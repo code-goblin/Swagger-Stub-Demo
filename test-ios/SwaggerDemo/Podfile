@@ -1,0 +1,10 @@
+platform :ios, '10.0'
+inhibit_all_warnings!
+
+target 'Swagger-Demo (iOS)' do
+  pod 'SwaggerClient', :path => '../SwaggerClient.podspec'
+end
+
+target 'Swagger-Demo (iOS-Swift)' do
+  pod 'SwaggerClientSwift', :path => '../SwaggerClientSwift/SwaggerClientSwift.podspec'
+end

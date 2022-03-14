@@ -1,0 +1,54 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.9.1)
+  - ISO8601 (0.6.0)
+  - JSONModel (1.8.0)
+  - SwaggerClient (1.0.0):
+    - AFNetworking (~> 3)
+    - ISO8601 (~> 0.6)
+    - JSONModel (~> 1.2)
+  - SwaggerClientSwift (0.0.1):
+    - Alamofire (~> 4.9.0)
+
+DEPENDENCIES:
+  - SwaggerClient (from `../SwaggerClient.podspec`)
+  - SwaggerClientSwift (from `../SwaggerClientSwift/SwaggerClientSwift.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Alamofire
+    - ISO8601
+    - JSONModel
+
+EXTERNAL SOURCES:
+  SwaggerClient:
+    :path: "../SwaggerClient.podspec"
+  SwaggerClientSwift:
+    :path: "../SwaggerClientSwift/SwaggerClientSwift.podspec"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ISO8601: d3ea3ba9b752820cf92c6b47a9ee327e9f0e13fc
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  SwaggerClient: 9e0ad152b00a36c13c9a790b3e350a18d62fe7a4
+  SwaggerClientSwift: 6a876f55584211580b4785f83e247a907c692dde
+
+PODFILE CHECKSUM: 12279e8817217f6c125d2597ea639ddbdd6b2958
+
+COCOAPODS: 1.10.1

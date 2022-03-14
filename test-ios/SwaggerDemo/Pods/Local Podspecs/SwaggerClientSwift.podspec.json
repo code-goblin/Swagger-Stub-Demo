@@ -1,0 +1,22 @@
+{
+  "name": "SwaggerClientSwift",
+  "platforms": {
+    "ios": "9.0",
+    "osx": "10.11",
+    "tvos": "9.0"
+  },
+  "summary": "Test Mock",
+  "version": "0.0.1",
+  "homepage": "https://github.com/swagger-api/swagger-codegen",
+  "source": {
+    "path": "."
+  },
+  "authors": "Swagger Codegen",
+  "license": "Proprietary",
+  "source_files": "SwaggerClient/Classes/**/*.swift",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.9.0"
+    ]
+  }
+}
